@@ -1,4 +1,4 @@
-We use [pack](https://github.com/stefan-hoeck/idris2-pack) to organise our projects. Put the following in `~/.pack/user/pack.toml` to use the most recent package versions:
+We use [pack](https://github.com/stefan-hoeck/idris2-pack) to organise and build our projects. Put the following in `~/.pack/user/pack.toml` to use the most recent package versions:
 
 ```
 [custom.all.log-domain]
