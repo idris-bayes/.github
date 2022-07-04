@@ -1,4 +1,4 @@
-We use [pack](https://github.com/stefan-hoeck/idris2-pack) to organise our projects. Put the following in `~/.pack/user/pack.toml`:
+We use [pack](https://github.com/stefan-hoeck/idris2-pack) to organise our projects. Put the following in `~/.pack/user/pack.toml` to use the most recent package versions:
 
 ```
 [custom.all.log-domain]
@@ -32,4 +32,4 @@ commit = "latest:master"
 ipkg   = "prob-fx.ipkg"
 ```
 
-Note that currently, many of these repositories rely on having their `.so` files locally.
+Note that many of these projects will interface with C shared object files (`.so` files) which are included locally in their repositories. Currently, other projects that depend on them will also need to have their `.so` files locally.
