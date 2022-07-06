@@ -32,4 +32,4 @@ commit = "latest:master"
 ipkg   = "prob-fx.ipkg"
 ```
 
-Note that many of these projects will interface with C shared object files (`.so` files) which are included locally in their repositories. Currently, other projects that depend on them will also need to have their `.so` files locally.
+Note that many of these projects will interface with C shared object files (`.so` files) which are included locally in their repositories. Currently, other projects that depend on them will also need to have their `.so` files locally. **Update**: This is no longer necessary if you add the following to the path (e.g. `~/.bashrc`): `export LD_LIBRARY_PATH=$(pack libs-path)`.
