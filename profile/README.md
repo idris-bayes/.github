@@ -4,31 +4,31 @@ We use [pack](https://github.com/stefan-hoeck/idris2-pack) to organise and build
 [custom.all.log-domain]
 type   = "github"
 url    = "https://github.com/idris-bayes/log-domain"
-commit = "latest:master"
+commit = "latest:main"
 ipkg   = "log-domain.ipkg"
 
-[custom.all.distributions]
+[custom.all.distribution]
 type   = "github"
-url    = "https://github.com/idris-bayes/distributions"
-commit = "latest:master"
-ipkg   = "distributions.ipkg"
+url    = "https://github.com/idris-bayes/distribution"
+commit = "latest:main"
+ipkg   = "distribution.ipkg"
 
 [custom.all.free]
 type   = "github"
 url    = "https://github.com/idris-bayes/free"
-commit = "latest:master"
+commit = "latest:main"
 ipkg   = "free.ipkg"
 
 [custom.all.monad-bayes]
 type   = "github"
 url    = "https://github.com/idris-bayes/monad-bayes"
-commit = "latest:master"
+commit = "latest:main"
 ipkg   = "monad-bayes.ipkg"
 
 [custom.all.prob-fx]
 type   = "github"
 url    = "https://github.com/idris-bayes/prob-fx"
-commit = "latest:master"
+commit = "latest:main"
 ipkg   = "prob-fx.ipkg"
 ```
 
